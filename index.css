@@ -1,0 +1,1356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgba(250, 60, 60, 0.473);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    z-index: 10000;
+    padding: .7rem;
+    transition: .7s;
+}
+.navbar.sticky{
+    background-color: white;
+}
+.navbar ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li{
+    position: relative;
+    list-style: none;
+}
+.navbar ul li a {
+    position: relative;
+    margin: 0 15px;
+    letter-spacing: 2px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pemanis{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 40rem;
+}
+.pemanis .pemaniskanan{
+    width: 50%;
+    order: 2;
+    height: 850px;
+    background-color: #b89f5d;
+}
+
+.pemanis .pemaniskiri{
+    width: 50%;
+    order: 1;
+}
+
+/* ke1 */
+.container{
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.ke1{
+    position: relative;
+    width: 100%;
+}
+
+.ke1 .hm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ke1 .gambar1{
+    display: flex;
+    z-index: 1;
+    width: 100%;
+    margin-top: -10rem;
+}
+.ke1 .hm img{
+    width: 20rem;
+    z-index: 1;
+    margin-top: 5rem;
+}
+
+.ke1 .gambar1 .sepatuputih1,
+.ke1 .gambar1 .keriting{
+    width: 50%;
+}
+
+.ke1 .gambar1 img{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:auto;
+}
+
+.keriting img{
+    width: 100%;
+    clip-path: inset(0 0 11.5rem 0);
+}
+
+.sepatuputih1 img{
+    margin-top:-5rem ;
+    width: 100%;
+    clip-path: inset(5rem 0 6.5rem 0);
+}
+/* akhir dari ke1 */
+
+
+
+
+/* awal dari ke2 */
+    .ke2{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        height: auto;   
+        margin-top: -6rem;
+    }
+
+    .ke2 .kiri{
+        width: 50%;
+        min-width: 20rem;
+    }
+
+    .ke2 .kiri .kirigambar{
+        max-width: 25rem ;
+        min-height: 24rem;
+        background-image: url(/img/3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+    .ke2 .tengah{
+        position: absolute;
+        margin-top: 5rem;
+        margin-left: 20rem;
+    }
+    .ke2 .tengah img{
+        width: 20rem;
+    }
+    .ke2 .kanan{
+        width: 50%;
+    }
+    .ke2 .kanan .kalimat{
+        margin-top: 5rem;
+        width: 30rem;
+        float: right;
+        text-align: right;
+        height: 30rem;
+    }
+
+    .ke2 .kanan .kalimat h3{
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 1.2;
+        color: #fff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 4rem;
+    }
+
+    .ke2 .kanan .kalimat h1{
+        color: #fff;
+        font-size: 3.2vw;
+        font-weight: 300;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 1rem 0;
+    }
+
+    .ke2 .kanan .kalimat p{
+        font-size: 1.1rem;
+        color: #fff;
+    }
+    
+    .ke2 .kanan .kalimat a{
+        width: 3rem;
+        color: white;
+        text-decoration: none;
+        background-color :rgb(90, 118, 112);
+        font-size: 1rem;
+        padding: 1rem 3rem;
+        line-height: 12rem;
+    }
+/* akhir dari ke2 */
+
+
+
+/* awal dari ke3 */
+.container2{
+    position: relative;
+    width: 1100px;
+    margin: 8rem auto;
+}
+
+.container2 .ke3{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.container2 .ke3 .kiri,
+.container2 .ke3 .kanan{
+    width: 50%;
+}
+
+.container2 .ke3 .kiri .kalimat2{
+    font-family: 'Palatino Linotype', serif !important;
+    color:black;
+    width: 35rem;
+    padding: 1rem;
+    height: 20rem;
+    margin-left: -.7rem;
+}
+.container2 .ke3 .kiri .kalimat2 h1{
+    margin-left: 0;
+    margin-right: 0;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: 0;
+    line-height: 1.1;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.container2 .ke3 .kiri .kalimat2 h2{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container2 .ke3 .kiri .kalimat2 a{
+        color: white;
+        text-decoration: none;
+        background-color :rgb(90, 118, 112);
+        font-size: 1rem;
+        padding: 1rem;
+        float: right;
+        margin-right: 1rem;
+        margin-top: 2rem;
+}
+
+.container2 .ke3 .kiri .blonde{
+    max-width: 32rem;
+    background-image: url(/img/7.jpg);
+    min-height: 34rem;
+    background-position: start;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container2 .ke3 .kanan .gmbr{
+    width: 19rem;
+    z-index: -1;
+}
+.container2 .ke3 .kanan img{
+    clip-path: inset(5rem 0);
+    width: 23rem;
+    margin-top: -2rem;
+}
+
+.container2 .ke3 .kananatas{
+    max-width: 18rem;
+    height: auto;
+    margin-top: -7rem;
+    z-index: 1;
+}
+.container2 .ke3 .kananatas img{
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+}
+.container2 .ke3 .kananatas .kalimat3{
+    background-color: #b89f5d;
+    color: #fff;
+    margin-left: -13rem;
+    margin-top: 24rem;
+    text-align: right;
+    font-family: 'Palatino Linotype', serif !important;
+    padding: 4rem 1rem;
+}
+.container2 .ke3 .kananatas .kalimat3 h3{
+    margin-top: 2rem;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 1.2;
+}
+.container2 .ke3 .kananatas .kalimat3 h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 20px 0 0;
+    line-height: 1.1;
+    font-weight: 400;
+}
+
+.container2 .ke3 .kananatas .kalimat3 p{
+    margin: 20px 0 30px;
+    font-size: 1rem;
+    line-height: 1.6;
+    line-height: 25.6px;
+}
+/* akhir dari ke3 */
+
+
+/* awald ari ke4 */
+    .pembungkuspemaniskiri{
+        display: flex;
+        z-index: -1;
+        flex-wrap: nowrap;
+        margin-top: -17rem;
+    }
+    .pemaniskiri1{
+        width: 50%;
+        height: 48rem;
+        background-color: #cd0118
+    }
+    .pemaniskiri11{
+        width: 50%;
+    }
+ 
+    .container3{
+        position: relative;
+        width: 1100px;
+        margin: -32rem auto;
+    }
+    .container3 .ke4{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    .container3 .ke4 .kiri,
+    .container3 .ke4 .kanan{
+        width: 50%;
+    }
+
+    .container3 .ke4 .kiri .kalimat4{
+        margin-top: 4rem;
+        padding-left: 1rem;
+    }
+    .container3 .ke4 .kiri .kalimat4 h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Palatino Linotype, serif;
+    color: white;
+    }
+
+    .container3 .ke4 .kiri .kalimat4 h1{
+        font-size: 3rem;
+        text-transform: uppercase;
+        margin: 20px 0 0;
+        font-family: Palatino Linotype, serif;
+        font-weight: 400;
+        line-height: 1.1;
+        color: white;
+    }
+
+    .container3 .ke4 .kiri .kalimat4 p{
+        margin: 20px 0 0;
+        font-size: .8rem;
+        line-height: 1.6;
+        color: white;
+        font-family: 'Open Sans',sans-serif;
+        letter-spacing: .1rem;
+    }
+    
+    .container3 .ke4 .kanan img{
+        width: 31.4rem;
+        clip-path: inset(12rem 0 9rem 0);
+        margin-top: -12rem;
+        margin-left: 3rem;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .container3 .ke5 {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(4,auto);
+        grid-template-rows: repeat(4,auto);
+        grid-template-areas:
+        'kiriatas kiriatas kanan kanan'
+        'kiriatas kiriatas kanan kanan'
+        'kiri kiri kanan kanan'
+        'kiri kiri kanan kanan';
+    }
+
+    .container3 .ke5 .kiri .kiriatas{
+        grid-area: kiriatas;
+        width: 80%;
+        height: 23rem;
+        background-color: #b89f5d;
+        margin-top: -7rem;
+        color: white;
+        font-family: 'Palatino Linotype', serif !important;
+        padding: 1rem
+    }
+    .container3 .ke5 .kiri .kiriatas h2{
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 1.2;
+        margin-top: 5rem;
+    }
+    .container3 .ke5 .kiri .kiriatas h1{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    .container3 .ke5 .kiri .kiriatas a{
+        color: white;
+        text-decoration: none;
+        background-color :rgb(90, 118, 112);
+        font-size: 1rem;
+        padding: .6rem 2rem;
+        line-height: 6rem;
+
+    }
+
+    .container3 .ke5 .kiri .kiribawah{
+        grid-area: kiri;
+        display: flex;
+        margin-top: 3rem;
+    }
+    .container3 .ke5 .kiri .kiribawah img{
+        width: 17rem;
+        clip-path: inset(7rem 0 3rem 0);
+        margin-top: -7rem;
+    }
+    .container3 .ke5 .kiri .kiribawah p{
+        padding: 1rem;
+        font-size: 1rem;
+        line-height: 1.6;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        margin-top: -.5rem;
+    }
+
+    .container3 .ke5 .kanan{
+        grid-area: kanan;
+        width: 34rem;
+    }
+    .container3 .ke5 .kanan img{
+        width: 100%;
+        margin-top: -8rem;
+        clip-path: inset(8rem 0);
+        background-position: center;
+        background-size: contain;
+    }
+/* aakhir ari ke4 */
+
+
+/* awal dari ke5 */
+.pemanisterakhir{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    z-index: -1;
+}
+.pemanisterakhir .pemanisakhirkanan,
+.pemanisterakhir .pemanisakhirkiri{
+    width: 50%;
+    height: 45rem;
+}
+.pemanisterakhir .pemanisakhirkanan{
+    background-color: #cd0118;
+    margin-top: 26rem;
+}
+
+.container4{
+    position: relative;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26rem;
+    display: flex;
+    height: 45rem;
+}
+.container4 .kiri,
+.container4 .kanan{
+    width: 50%;
+}
+
+.container4 .kiri .atas img{
+    width: 20rem;
+    margin-top: -2rem;
+    float: right;
+    margin-right: 2.5rem;
+    z-index: 1;
+}
+
+.container4 .kiri .bawah{
+    position: absolute;
+    width: 22rem;
+    clip-path: inset(4rem 0);
+    min-height: 29rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -3;
+    margin-top: 16rem;
+    background-image: url(/img/12.jpg);
+}
+
+.container4 .kanan .kalimat{
+    text-align: right;
+    color: #fff;
+    font-family: Palatino Linotype, serif;
+    margin-top: 12rem;
+}
+
+.container4 .kanan .kalimat h2{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-family: Palatino Linotype, serif;
+}
+.container4 .kanan .kalimat h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 20px 0 0 20px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+.container4 .kanan .kalimat p{
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 20px 0 0 50px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.container4 .kanan .kalimat a{
+         width: 3rem;
+        color: white;
+        text-decoration: none;
+        background-color: #b89f5d;
+        font-size: 1rem;
+        padding: .7rem 2rem;
+        line-height: 12rem;
+}
+.container4 .kanan .kalimat a:hover{
+    background-color: #a3915e;
+
+}
+/* akhir dari ke5 */
+
+
+    /* awal dari ke6 */
+    .container5{
+        width: 100%;
+        color: #ffffff;
+        background-color: #333333;
+        position: absolute;
+    }
+    .container5 .kalimatterakhir{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 2rem;
+    }
+    .container5 p{
+        float: left;
+    }
+    .container5 h4{
+        margin-left:.5rem ;
+        color: #dfca93;
+    }
+    .container5 a{
+        display: flex;
+        color: #dfca93;
+        margin-left: .5rem;
+        margin-right: .5rem;
+        float: left;
+    }
+    .container5 .tanggal{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    /* akhor dari ke6 */
+
+/* Responsif View */
+@media (max-width: 1200px){
+    .container{
+        width: 900px;
+    }
+
+.pemanis .pemaniskanan{
+margin-top: -15rem;
+}
+
+    .ke1 .hm img{
+        width: 15rem;
+        z-index: 1;
+        margin-top: 3rem;
+    }
+    .ke1 .gambar1{
+        width: 100%;
+        margin-top: -6rem;
+    }
+    .keriting img{
+        width: 100%;
+        clip-path: inset(0 0 5rem 0);
+    }
+    .sepatuputih1 img{
+        margin-top:-5rem ;
+        width: 100%;
+        clip-path: inset(5rem 0 0 0);
+    }
+
+.ke2 .kiri{
+    min-width: 16rem;
+    margin-top: 4rem;
+}
+.ke2 .tengah img{
+    margin-top: 4rem;
+    width: 15rem;
+}
+.ke2 .kanan .kalimat h3{
+    font-size: 1.3rem;
+}
+.ke2 .kanan .kalimat h1{
+    font-size: 2.4rem;
+}
+.ke2 .kanan .kalimat p{
+    font-size: 1rem;
+}
+
+    .container2{
+        position: relative;
+        width: 900px;
+        margin: 0 auto;  
+    } 
+    .container2 .ke3 .kiri .kalimat2{
+        width:30rem ;
+    }
+    .container2 .ke3 .kiri .kalimat2 a{
+        font-size: .8rem;
+    }
+    .container2 .ke3 .kiri .blonde{
+        margin-top: 2rem;
+        width: 90%;
+    }
+    .container2 .ke3 .kanan .gmbr{
+        width: 13rem;
+    }
+    .container2 .ke3 .kanan img{
+        clip-path: inset(0 0);
+        width: 21rem;
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+    .container2 .ke3 .kananatas .kalimat3{
+        width: 25rem;
+        float: right;
+        height: 25rem;
+        margin-top: 30rem;
+    }
+    .container2 .ke3 .kananatas .kalimat3 h3{
+        margin-top: -2rem;
+    }
+
+.pemaniskiri1{
+    height: 53rem;
+}
+.container3{
+    position: relative;
+    width: 900px;
+}
+.container3 .ke4 .kiri .kalimat4 h1{
+    font-size: 2.9rem;
+}
+.container3 .ke4 .kanan img{
+    width: 25rem;
+    margin-top: -7rem;
+    clip-path: inset(9rem 0 7rem 0);
+
+}
+    .container3 .ke5{
+        margin-top: 6rem;
+    }
+    .container3 .ke5 .kanan{
+        width: 28rem;
+    }
+    .container3 .ke5 .kiri .kiribawah img{
+        width: 14rem;
+        clip-path: inset(8rem 0 5rem 0);
+        margin-top: -7rem;
+        min-height: 16rem;
+    }
+    .container3 .ke5 .kiri .kiribawah p{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        margin-top: -3rem;
+    }
+
+
+.pemanisterakhir .pemanisakhirkanan{
+    margin-top: 33rem;
+}
+.container4{
+    width: 900px;
+    margin-top: 33rem;
+}
+.container4 .kiri .atas img{
+    width: 17.5rem;
+    margin-top: 0rem;
+}
+.container4 .kiri .bawah{
+    width: 17rem;
+}
+}
+/* ------ */
+
+/* ------- */
+@media (max-width:1000px){
+    .container{
+        width: 700px;
+    }
+
+.pemanis .pemaniskanan{
+margin-top: -12rem;
+height: 650px;
+}
+    .ke1 .hm img{
+        width: 14rem;
+        z-index: 1;
+        margin-top: 3rem;
+    }
+    .ke1 .gambar1{
+        width: 100%;
+        margin-top: -6rem;
+    }
+    .keriting img{
+        width: 100%;
+        clip-path: inset(0 0 5rem 0);
+    }
+    .sepatuputih1 img{
+        margin-top:-5rem ;
+        width: 100%;
+        clip-path: inset(5rem 0 0 0);
+    }
+
+.ke2 .kiri{
+    min-width: 16rem;
+    margin-top: 4rem;
+}
+.ke2 .tengah img{
+    margin-left: -8rem;
+    margin-top: 8rem;
+    width: 13rem;
+}
+.ke2 .kanan .kalimat h3{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.ke2 .kanan .kalimat h1{
+    font-size: 2.1rem;
+}
+.ke2 .kanan .kalimat p{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+    .container2{
+        width: 700px;
+    }
+    .container2 .ke3 .kiri .kalimat2{
+        width:25rem ;
+    }
+    .container2 .ke3 .kiri .kalimat2 a{
+        margin-right: 3rem;
+    }
+    .container2 .ke3 .kanan .gmbr{
+        width: 10rem;
+    }
+    .container2 .ke3 .kanan img{
+        clip-path: inset(0 0);
+        width: 18rem;
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+    .container2 .ke3 .kananatas .kalimat3{
+        width: 20rem;
+        float: right;
+        height: 25rem;
+        margin-top: 30rem;
+    }
+    .container2 .ke3 .kananatas img{
+        margin-top: 2rem;
+    }
+    .container2 .ke3 .kananatas .kalimat3 h3{
+        margin-top: -1rem;
+    }
+    .container2 .ke3 .kananatas .kalimat3 h1{
+        font-size: 2.5rem;
+    }
+
+.pemaniskiri1{
+    height: 54rem;
+}
+.container3{
+    position: relative;
+    width: 700px;
+    margin-top: -36rem;
+}
+.container3 .ke4 .kiri .kalimat4{
+    margin-top: 2rem;
+}
+.container3 .ke4 .kiri .kalimat4 h1{
+    font-size: 2.5rem;
+}
+.container3 .ke4 .kanan img{
+    width: 90%;
+    float: right;
+    margin-top: -3rem;
+    clip-path: inset(7rem 0 5rem 0);   
+}
+
+    .container3 .ke5{
+        margin-top: 10rem;
+    }
+
+    .container3 .ke5 .kiri .kiriatas h2{
+        margin-top: 2rem;
+    }
+    .container3 .ke5 .kanan{
+        width: 22rem;
+    }
+    .container3 .ke5 .kanan img{
+        width: 100%;
+        clip-path: inset(3rem 0 5rem 0);
+        margin-top: -3rem;
+    }
+    .container3 .ke5 .kiri .kiribawah img{
+        width: 10rem;
+        margin-top: -7rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+.pemanisterakhir .pemanisakhirkanan{
+    margin-top: 31rem;
+    height: 46rem;
+}
+.container4{
+    width: 700px;
+    margin-top: 32rem;
+}
+.container4 .kiri .atas img{
+    width: 15.5rem;
+    margin-right: 1rem;
+}
+.container4 .kiri .bawah{
+    width: 17rem;
+}
+}
+/* ------ */
+/* ------ */
+@media(max-width:758px){
+    .container{
+        width: 550px;
+    }
+
+    .pemanis .pemaniskanan{
+        margin-top: 40rem;
+    }
+    .pemanis .pemaniskanan{
+        width: 75%;
+        height: 1100px;
+    }
+
+    
+.ke1 .hm{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.ke1 .gambar1{
+    display: block;
+    z-index: 1;
+    width: 100%;
+    margin-top: -5rem;
+}
+.ke1 .hm img{
+    width: 13rem;
+    z-index: 1;
+    margin-top: 3rem;
+}
+.ke1 .gambar1 .sepatuputih1,
+.ke1 .gambar1 .keriting{
+    width: 100%;
+}
+.keriting img{
+    width: 100%;
+    clip-path: inset(0 0 11.5rem 0);
+    margin-top: -6.9rem;
+}
+
+.sepatuputih1 img{
+    width: 100%;
+    clip-path: inset(5rem 0 00);
+    margin-bottom: 3rem;
+}
+
+    .ke2{
+        margin-top: -14rem;
+    }
+    .ke2 .kiri{
+        min-width: 16rem;
+    }
+    .ke2 .tengah img{
+        margin-top: 4rem;
+        margin-left: -12rem;
+        width: 19rem;
+    }
+    .ke2 .kanan{
+        margin-top: 30rem ;
+    }
+    .ke2 .kanan .kalimat h3{
+        font-size: 1.3rem;
+    }
+    .ke2 .kanan .kalimat h1{
+        font-size: 2.4rem;
+    }
+    .ke2 .kanan .kalimat p{
+        font-size: 1rem;
+    }
+
+.container2{
+    width: 550px;
+    margin-top: -3rem;
+}
+.container2 .ke3 .kiri .kalimat2{
+    width:35rem;
+}
+.container2 .ke3 .kiri .kalimat2 a{
+    margin-right: 3rem;
+}
+.container2 .ke3 .kiri .blonde{
+    width: 23rem;
+    margin-top: 33rem;
+}
+.container2 .ke3 .kanan img{
+    position: absolute;
+    clip-path: inset(0 0);
+    width: 18rem;
+    margin-top: 29rem;
+    margin-left: -8rem;
+    z-index: -1;
+}
+.container2 .ke3 .kananatas .kalimat3{
+    width: 20rem;
+    float: right;
+    height: 22rem;
+    margin-top: 82rem;
+}
+.container2 .ke3 .kananatas img{
+    width: 14rem;
+    margin-left: -7rem;
+    margin-bottom: -40rem;
+}
+.container2 .ke3 .kananatas .kalimat3 h3{
+    margin-top: -.5rem;
+    font-size: 1.2rem;
+}
+.container2 .ke3 .kananatas .kalimat3 h1{
+    font-size: 2rem;
+}
+    
+    .pemaniskiri1{
+        width: 80%;
+        height: 74rem;
+        margin-top: 20rem;
+    }
+    .container3{
+        position: relative;
+        width: 550px;
+        margin-top: -74rem;
+    }
+    .container3 .ke4 .kiri .kalimat4{
+        margin-top: 2rem;
+        width: 22.5rem;
+    }
+    .container3 .ke4 .kiri .kalimat4 h1{
+        font-size: 2.9rem;
+    }
+    .container3 .ke4 .kiri .kalimat4 p{
+        letter-spacing: 0;
+        font-size: 1rem;
+    }
+    .container3 .ke4 .kanan img{
+        width: 25rem;
+        margin: 32rem 8rem 0 0;
+        clip-path: inset(5rem 0 3rem 0);
+    }
+
+.container3 .ke5{
+    margin-top: 6rem;
+    grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(6,auto);
+        grid-template-areas:
+        'kiriatas kiriatas'
+        'kiriatas kiriatas'
+        'kiri kiri'
+        'kiri kiri'
+        'kanan kanan'
+        'kanan kanan';
+}
+.container3 .ke5 .kiri .kiriatas{
+    width: 60%;
+    padding-left:1.5rem ;
+}
+.container3 .ke5 .kiri .kiribawah img{
+    width: 15rem;
+    clip-path: inset(3rem 0 0 0);
+    margin: -2rem 0 3rem 0;
+    order: 2;
+}
+.container3 .ke5 .kiri .kiribawah p{
+    order: 1;
+    margin-top: 3rem;
+}
+.container3 .ke5 .kanan{
+    width: 100%;
+}
+.container3 .ke5 .kanan img{
+    clip-path: inset(8rem 0);
+    margin-top: -8rem;    
+}   
+
+    .pemanisterakhir .pemanisakhirkanan{
+        margin-top: 25rem;
+        height: 86rem;
+        width: 60%;
+        z-index: -2;
+    }
+    .container4{
+        width: 550px;
+        margin-top: 28rem;
+        height: auto;
+    }
+    .container4 .kanan{
+        width: 70%;
+    }
+    .container4 .kiri .atas img{
+        width: 20rem;
+        margin-right: -20rem;
+    }
+    .container4 .kiri .bawah{
+        width: 23rem;
+        z-index: -1;
+        margin-top: 19rem;
+    }
+
+    .container4 .kanan{
+        margin-top: -8rem;
+    }
+    .container4 .kanan .kalimat{
+        margin-top: 55rem;
+    }
+}
+/* ------ */
+/* ------ */
+@media (max-width:610px){
+    .container{
+        width: 400px;
+    }
+
+.pemanis .pemaniskanan{
+    margin-top: 21rem;
+    width: 140%;
+    height: 1200px;
+}
+
+.keriting img{
+    width: 100%;
+    clip-path: inset(0 0 0 0);
+}
+
+.sepatuputih1 img{
+    width: 100%;
+    clip-path: inset(5rem 0 0 0);
+    margin-bottom: 6rem;
+}
+
+
+    .ke2{
+        margin-top: 3rem;
+    }
+    .ke2 .kiri{
+        min-width: 16rem;
+    }
+    .ke2 .tengah img{
+        margin-top: 4rem;
+        margin-left: -14rem;
+        width: 15rem;
+    }
+    .ke2 .kanan{
+        margin-top: 27rem ;
+        width: 5;
+        margin-left: -3.5rem;
+    }
+    .ke2 .kanan .kalimat h3{
+        font-size: 1.1rem;
+    }
+    .ke2 .kanan .kalimat h1{
+        font-size: 2.2rem;
+    }
+    .ke2 .kanan .kalimat p{
+        font-size: 1rem;
+    }
+
+.container2{
+    width: 400px;
+    margin-top: -3rem;
+}
+.container2 .ke3 .kiri .kalimat2{
+    width:25rem;
+    margin-top: -1rem;
+}
+.container2 .ke3 .kiri .kalimat2 a{
+    margin-right:-1rem;
+    margin-top: 1rem;
+}
+.container2 .ke3 .kananatas img{
+    margin-left: -12rem;
+}
+.container2 .ke3 .kananatas .kalimat3{
+    width: 20rem;
+    margin-top: 93rem;
+    margin-left: -23rem;
+}
+
+    .pemaniskiri1{
+        width: 120%;
+    }
+    .container3{
+        width: 400px;
+    }
+    .container3 .ke4 .kiri .kalimat4{
+        width:17.5rem;
+    }
+    .container3 .ke4 .kanan img{
+        width: 20rem;
+        margin: 38rem 2rem 0 0;
+        clip-path: inset(5rem 0 3rem 0);
+    }
+       
+.container3 .ke5 .kiri .kiriatas{
+    width: 70%;
+    margin-top: -5rem;
+}
+.container3 .ke5 .kiri .kiribawah{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.container3 .ke5 .kiri .kiribawah img{
+    width: 100%;
+    order: 1;
+}
+.container3 .ke5 .kiri .kiribawah p{
+    width: 100%;
+    margin-top: -3rem;
+}
+.container3 .ke5 .kanan img{
+    clip-path: inset(6rem 0);
+    margin-top: -6rem;    
+}  
+
+    .pemanisterakhir .pemanisakhirkanan{
+        width: 80%;
+        margin-top: 26.8rem;
+    }
+    .container4{
+        width: 400px;
+    }
+    .container4 .kiri .atas img{
+        width: 18rem;
+        margin-right: -15rem;
+    }
+}
+/* ----- */
+/* ----- */
+@media(max-width:430px){
+    .container{
+        width: 300px;
+    }
+
+    .ke1 .hm img{
+        width: 8rem;
+        z-index: 1;
+        margin-top: 2rem;
+    }
+    .ke1 .gambar1{
+        margin-top: -3rem;
+    }
+
+.pemanis .pemaniskanan{
+    margin-top: 6rem;
+    width: 200%;
+    height: 1100px;
+}
+
+    .ke2 .tengah img{
+        margin-top: 9rem;
+        margin-left: -16rem;
+        width: 12rem;
+    }
+    .ke2 .kanan{
+        margin-top: 27rem ;
+        width: 5;
+        margin-left: -7rem;
+    }
+    .ke2 .kanan .kalimat{
+        height: auto;
+    }
+    .ke2 .kanan .kalimat h3{
+        font-size: 1rem;
+    }
+    .ke2 .kanan .kalimat h1{
+        font-size: 1.7rem;
+    }
+    .ke2 .kanan .kalimat p{
+        font-size: .8rem;
+    }
+    .ke2 .kanan .kalimat a{
+        width: 3rem;
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        padding: 1rem 3rem;
+        margin-right: 2rem;
+        line-height: 12rem;
+    }
+
+.container2{
+    width: 300px;
+    margin-top:2rem;
+}  
+.container2 .ke3 .kiri .kalimat2{
+    width:19rem;
+}
+.container2 .ke3 .kananatas img{
+    margin-left: -15rem;
+    margin-top: 33rem;
+}
+.container2 .ke3 .kanan .gmbr img{
+    width: 13rem;
+    margin-top: 38rem;
+}
+.container2 .ke3 .kiri .blonde{
+    width: 18.7rem;
+    margin-top: 36rem;
+}
+.container2 .ke3 .kananatas .kalimat3{
+    width: 18.7rem;
+    margin-top: 96rem;
+    margin-left: -19rem;
+}
+
+    .pemaniskiri1{
+        height: 63rem;
+    }
+    .container3{
+        width: 300px;
+    }
+    .container3 .ke4 .kiri .kalimat4{
+        width:13.6rem;
+        margin-top:13rem;
+    }
+    .container3 .ke4 .kiri .kalimat4 h1{
+        font-size: 2.3rem;
+    }
+    .container3 .ke4 .kanan img{
+        width: 17rem;
+        margin: 46rem 0 -2rem 0;
+        clip-path: inset(5rem 0 3rem 0);
+    }
+
+
+.container3 .ke5 .kiri .kiriatas h2{
+    font-size: 1.3rem;
+}
+.container3 .ke5 .kiri .kiriatas{
+    width: 80%;
+    height: 18rem;
+}
+.container3 .ke5 .kiri .kiriatas h1{
+    font-size: 1.8rem;
+}
+.container3 .ke5 .kiri .kiribawah img{
+    margin-top: -4rem;
+}
+.container3 .ke5 .kanan img{
+    clip-path: inset(3rem 0);
+    margin-top: -3rem;    
+} 
+
+    .pemanisterakhir .pemanisakhirkanan{
+        width: 120%;
+        height: 73rem;
+        margin-top: 29.5rem;
+    }
+    .container4{
+        width: 300px;
+        margin-top: 31rem;
+    }
+    .container4 .kiri .atas img{
+        width: 12rem;
+        margin-right: -12rem;
+    }
+    .container4 .kiri .bawah{
+        width: 17rem;
+        margin-top: 12rem;
+    }
+    .container4 .kanan .kalimat{
+        margin-top: 48rem;
+        width: 12rem;
+    }
+    .container4 .kanan .kalimat h1{
+        font-size: 2rem;
+    }
+    .container4 .kanan .kalimat h2{
+        font-size: 1.3rem;
+    }
+    .container4 .kanan .kalimat p{
+        font-size: .8rem;
+        text-align: right;
+        padding: 1;
+        margin: 2rem 0 0 0;
+    }
+
+.container5 {
+    font-size: .8rem;
+}
+}
+/* akhir dari responsif */
+
+
+
+
+
+
